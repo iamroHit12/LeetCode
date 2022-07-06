@@ -4,9 +4,6 @@ public:
         vector<int> res;
         map<int,int> m;
         int val;
-        // for(int i=0;i<nums.size();i++){
-        //     m[nums[i]]++;
-        // }
         
         for(int i=0;i<nums.size();i++){
             auto it = m.find(target-nums[i]);
