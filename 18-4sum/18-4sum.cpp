@@ -7,14 +7,10 @@ public:
         if(nums.size()<4)
             return res;
         for(int i=0;i<nums.size()-3;i++){
-            // if(i>0 && nums[i]==nums[i-1])
-            //             continue;
             for(int j=i+1;j<nums.size()-2;j++){
                 int k=j+1;
                 int l=nums.size()-1;
                 
-                // if(j>i+1&&nums[j]==nums[j-1])
-                //         continue;
                 while(k<l){
                     
                     sum = (long long)nums[i]+(long long)nums[j]+(long long)nums[k]+(long long)nums[l];
