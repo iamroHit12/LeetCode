@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
-        map<int,int> m;
+        
         vector<int> v;
         vector<int> res;
         int count = 0;
