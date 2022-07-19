@@ -3,22 +3,14 @@ public:
     vector<int> vec;
     int t;
     MinStack() {
-        //int t = -1;
+
     }
     
     void push(int val) {
-//         if(t==999)
-//             return;
-        
-//         t++;
         vec.push_back(val);
     }
     
     void pop() {
-//         if(t==-1)
-//             return;
-        
-//         t--;
         vec.pop_back();
     }
     
