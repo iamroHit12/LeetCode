@@ -22,11 +22,8 @@ public:
     int pop() {
         int val = q.back();
         reverse(q);
-        cout<<q.front();
         q.pop();
-        cout<<q.front();
         reverse(q);
-        cout<<q.front();
         return val;
     }
     
