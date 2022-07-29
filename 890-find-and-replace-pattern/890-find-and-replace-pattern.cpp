@@ -3,8 +3,7 @@ public:
     vector<int> check(string s){
         unordered_map<char,int> m;
         vector<int> pat;
-        if(s.size()==0)
-            return pat;
+        
         int n=0;
         for(int i=0;i<s.size();i++){
             auto it = m.find(s[i]);
